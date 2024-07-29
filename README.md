@@ -6,6 +6,7 @@
 - `bun install @deepkit/type @deepkit/type-compiler @deepkit/core @deepkit/bun typescript`
 - add 'bunfig.toml' according to https://socket.dev/npm/package/@deepkit/bun
 - `bun install -D @types/bun` (needed for build.ts file)
+- create 'build.ts' file for bun bundler (feel free to copy mine)
 
 ```toml
 preload = ["@deepkit/bun"]
