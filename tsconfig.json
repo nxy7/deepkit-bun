@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "experimentalDecorators": true,
+    "rootDir": ".",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "target": "ES2020",
-    "module": "ES2022",
-    "moduleResolution": "Bundler"
+    "skipLibCheck": true
   },
-  "reflection": true
+  "reflection": true,
+  "exclude": ["node_modules"]
 }
